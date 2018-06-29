@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #7ddfe4;
+}
+
+h1 {
+  padding-top: 1rem;
+
+}
+.dog-icon {
+  width: auto;
+  height: 3rem;
+  margin-left: 1rem;
+  margin-top: .5rem;
+}
+
+h3 {
+  
+  margin-left: auto;
+  margin-right:auto;
+
+}
+
+ul {
+  float: right;
+  margin-top: 1.5rem;
+  color: #f0ead6;
+  padding: -3rem;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+li {
+  display: inline;
+  padding: 1.157rem;
+  margin-top: -3rem;
+  
+}
+
+li:hover {
+  background-color: black;
+}
+
+.jumbotron {
+  text-align: center; 
+  background: url("images/park.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+.dog-hero {
+  border-radius: 50%;
+  border: 1px solid #7ddfe4;
+  width: auto;
+  height: 20rem;
+  margin: 8rem;
+}
+
+.one-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  
+  padding: .8rem;
+  border: 2px solid #7ddfe4;
+  background-color: white;
+
+}
+
+.dog2, .dog3, .dog4 {
+  border-radius: 50%;
+  border: 2px solid #7ddfe4;
+  width: auto;
+  height: 20rem;
+  margin: 8rem;
+}
+.colone {
+  width: 37rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.butt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  padding: .8rem;
+  border: 2px solid #7ddfe4;
+  background-color: white;
+}
+
+.icons {
+  padding: .5rem 1rem; 
+}
+
+.git-link {
+  display: block;
+  color: white;
+}
+
+footer {
+  background-color: #4489a0;
+  text-align: center;
+  color: white;
+  border: solid;
+}
+  /*.colone 
+  width: 33%;
+  float: left;
+  margin: auto;*/
+
+
+/*footer {
+  background-color: #4489a0;
+  text-align: center;
+  color: white;
+  border: solid;*/
+}
+
+
