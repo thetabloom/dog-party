@@ -68,7 +68,7 @@ li:hover {
 
 .dog2, .dog3, .dog4 {
   border-radius: 50%;
-  border: px solid #4489a0;
+  border: 2px solid #4489a0;
   height: 14rem;
   margin: 0 0 1.5em 2em;
 }
