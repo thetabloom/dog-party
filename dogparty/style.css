@@ -3,30 +3,25 @@
   padding: 0;
   font-family: 'Raleway', sans-serif;
 }
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-}
 
 header {
   background-color: #7ddfe4;
 }
 
 h1 {
-  padding-top: 1rem;
-
+  padding-top: 3rem;
+  font-size: 2em;
 }
+
 .dog-icon {
   width: auto;
   height: 3rem;
-  margin-left: 1rem;
+  margin-left: 1.8rem;
   margin-top: .5rem;
 }
 
 h3 {
-  margin-left: auto;
-  margin-right:auto;
+  padding: 2em 0 1.4em 1.5em;
 }
 
 ul {
@@ -35,13 +30,12 @@ ul {
   margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
-  padding: -3rem;
+  padding: 2;
 }
 
 li {
   display: inline;
   padding: 1.157rem;
-  margin-top: -3rem;
   }
 
 li:hover {
@@ -53,38 +47,44 @@ li:hover {
   background: url("images/park.jpg") no-repeat;
   width: 100%;
   background-size: cover;
+  padding-bottom: .3em;
 }
+
 .dog-hero {
   border-radius: 50%;
-  border: 1px solid #7ddfe4;
-  width: auto;
-  height: 20rem;
-  margin: 8rem;
+  border: 3px solid #4489a0;
+  height: 18em;
+  margin: 4em 2em 2em 2em;
 }
 
 .one-button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5rem;
-  padding: .8rem;
-  border: 2px solid #7ddfe4;
+  margin-bottom: 2.5rem;
+  padding: .3rem;
+  border: 3px solid #4489a0;
   background-color: white;
-
+  font-size: 1em;
+  color: #4489a0;
+  font-weight: bold;
 }
 
 .dog2, .dog3, .dog4 {
   border-radius: 50%;
-  border: 2px solid #7ddfe4;
-  width: auto;
-  height: 20rem;
-  margin: 8rem;
+  border: 2px solid #4489a0;
+  height: 14rem;
+  margin: 0 0 1.5em 2em;
 }
 
 .colone {
-  width: 37rem;
+  width: 29rem;
   display: inline-block;
   text-align: center;
+}
+
+p {
+  margin-left: 1em;
 }
 
 .butt {
@@ -93,13 +93,16 @@ li:hover {
   margin-right: auto;
   margin-bottom: 5rem;
   margin-top: 3rem;
-  padding: .8rem;
-  border: 2px solid #7ddfe4;
+  padding: .4rem;
+  border: 3px solid #4489a0;
   background-color: white;
+  color: #4489a0;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .icons {
-  padding: .5rem 1rem; 
+  padding: 2em 1.5em 2em 1.5em; 
 }
 
 .git-link {
@@ -107,7 +110,12 @@ li:hover {
   color: white;
 }
 
+.learn {
+  margin-bottom: .2em;
+}
+
 footer {
+  padding: 1em;
   background-color: #4489a0;
   text-align: center;
   color: white;
